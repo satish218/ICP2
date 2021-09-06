@@ -1,0 +1,23 @@
+.color-cube {
+display: grid;
+gird-template-columns:auto auto auto;
+padding:30px;
+}
+.color-box {
+  padding: 20px;
+  font-size: 30px;
+  margin:2px;
+  width:70px;
+  height:70px;
+}
+.main-content {
+  position: relative;
+  width: 450px;
+  height: 250px;
+  margin: 0 auto;
+  top: 25vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
